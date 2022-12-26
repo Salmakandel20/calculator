@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+.cont{
+    width: 360px;
+    
+    margin: auto;
+    background-color: aliceblue;
+}
+.dis{
+    background-color: rgb(194, 188, 188);
+    color: rgb(241, 125, 110);
+    border: 1px solid rgb(214, 208, 208);
+    height: 40px;
+    font-size: 25px;
+
+    
+}
+.number{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+button{
+    width: 85px;
+    height: 30px;
+    background: rgb(241, 184, 184);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+    margin: 2px;
+}
